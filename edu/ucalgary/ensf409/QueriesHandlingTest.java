@@ -5,7 +5,9 @@ import org.junit.*;
 import java.io.*;
 import java.util.*;
 import org.junit.contrib.java.lang.system.ExpectedSystemExit;
-
+/**
+ * Group 49: Sina Tavakol Moghaddam, Jack li, Viet An Truong, Minseung Kwon
+ */
 public class QueriesHandlingTest {
     @Test
     //Contructor created with three arguments
