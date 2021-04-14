@@ -13,7 +13,7 @@ import org.junit.Test;
  * @author Truong,Viet An
  * @version 1.4
  * @since 1.0
- * Group 49: Sina Tavakol Moghaddam, Jack li, Viet An Truong, Minseung Kwon
+ *  Group 49: Sina Tavakol Moghaddam, Jack li, Viet An Truong, Minseung Kwon
  */
 
 public class CombinationsTest{
@@ -77,8 +77,8 @@ public class CombinationsTest{
 	}
 
 	/**
-	 * Tests uniqueCombinationLamp &bestCombination for 1 lamp. UniqueCombinationLamp stores all possible combinations that may make 1 Lamp. Then bestCombination 
-	 * compares the totalPrice variable in each then returns the Combination object with lowest totalPrice value. 
+	 * Tests uniqueCombinationLamp and bestCombination for 1 lamp. UniqueCombinationLamp stores all possible combinations that may make 1 Lamp. 
+	 * Then bestCombination compares the totalPrice variable in each then returns the Combination object with lowest totalPrice value. 
 	 */
     @Test
 	public void testBestCombinationLamp() {
@@ -114,7 +114,7 @@ public class CombinationsTest{
 	}
 
 	/**
-	 * Tests uniqueCombinationLamp & bestCombination for more than 1 lamp. Here we test the case when the user requests 2 Lamps.
+	 * Tests uniqueCombinationLamp and bestCombination for more than 1 lamp. Here we test the case when the user requests 2 Lamps.
 	 * It returns a Combination object with lowest totalPrice available in the Combination Arraylist
 	 */
     @Test   
@@ -155,7 +155,7 @@ public class CombinationsTest{
 		assertEquals("total Price of expected result does not match total price of result",expectedResult.totalPrice,result.totalPrice);
 	}
 	/**
-	 * Testing uniqueCombinationLamp & bestCombination when no Combination exists, such as cases where only the bulbs are available 
+	 * Testing uniqueCombinationLamp and bestCombination when no Combination exists, such as cases where only the bulbs are available 
 	 * so that the User request of 1 lamp cannot be fulfilled
 	 */
 	@Test
@@ -173,7 +173,7 @@ public class CombinationsTest{
 		assertNull("result is not null and there is a Combination that makes lamps possible",result);
 	}
 	/**
-	 * Testing uniqueCombinationLamp & bestCombination when empty ArrayList<Lamp> is passed as an argument
+	 * Testing uniqueCombinationLamp and bestCombination when empty ArrayList of type Lamp is passed as an argument
 	 * returning Combination object must be null.
 	 */
 	@Test
@@ -187,7 +187,7 @@ public class CombinationsTest{
 		assertNull("result is not null and there is a Combination that makes lamps possible",result);
 	}
 	/**
-	 * Testing uniqueCombinationLamp & bestCombination when there is only one valid combination found 
+	 * Testing uniqueCombinationLamp and bestCombination when there is only one valid combination found 
 	 */
 	@Test
 	public void testOneCombinationLamp()
@@ -205,7 +205,7 @@ public class CombinationsTest{
 		assertEquals("there exists more than one Combination and the totalPrice of result does not match expected value",21, result.totalPrice);
 	}
 	/**
-	 * Tests uniqueCombinationChair &bestCombination for 1 Chair. UniqueCombinationChair stores all possible combinations that may make 1 chair. Then bestCombination 
+	 * Tests uniqueCombinationChair and bestCombination for 1 Chair. UniqueCombinationChair stores all possible combinations that may make 1 chair. Then bestCombination 
 	 * compares the totalPrice variable in each then returns the Combination object with lowest totalPrice value. 
 	 */
     @Test
@@ -236,7 +236,7 @@ public class CombinationsTest{
 		assertEquals("totalPrice of result did not match the expectedResult's totalPrice",expectedResult.totalPrice,result.totalPrice);
 	}
 	/**
-	 * Tests uniqueCombinationChair & bestCombination for more than 2 chairs. Here we test the case when the user requests 2 Chairs.
+	 * Tests uniqueCombinationChair and bestCombination for more than 2 chairs. Here we test the case when the user requests 2 Chairs.
 	 * It returns a Combination object with lowest totalPrice available in the Combination Arraylist
 	 */
     @Test
@@ -288,7 +288,7 @@ public class CombinationsTest{
 	}
 
 	/**
-	 * Testing uniqueCombinationChair & bestCombination when empty ArrayList<Chair> is passed as an argument
+	 * Testing uniqueCombinationChair and bestCombination when empty ArrayList of type Chair is passed as an argument
 	 * returning Combination object must be null.
 	 */
 	@Test
@@ -304,7 +304,7 @@ public class CombinationsTest{
 
 
 	/**
-	 * Testing uniqueCombinationChair & bestCombination when there is only one valid combination found 
+	 * Testing uniqueCombinationChair and bestCombination when there is only one valid combination found 
 	 */
 	@Test
 	public void testOneCombinationChair()
@@ -325,7 +325,7 @@ public class CombinationsTest{
 	}
 
 	/**
-	 * Tests uniqueCombinationDesk &bestCombination for 1 Desk. UniqueCombinationDesk stores all possible combinations that may make 1 Desk. Then bestCombination 
+	 * Tests uniqueCombinationDesk and bestCombination for 1 Desk. UniqueCombinationDesk stores all possible combinations that may make 1 Desk. Then bestCombination 
 	 * compares the totalPrice variable in each then returns the Combination object with lowest totalPrice value. 
 	 */
     @Test
@@ -353,7 +353,7 @@ public class CombinationsTest{
 		assertEquals("total price of result does not match totalPrice of expectedResult",expectedResult.totalPrice,result.totalPrice);
 	}
 	/**
-	 * Tests uniqueCombinationDesk & bestCombination for more than 2 chairs. Here we test the case when the user requests 2 Chairs.
+	 * Tests uniqueCombinationDesk and bestCombination for more than 2 chairs. Here we test the case when the user requests 2 Chairs.
 	 * It returns a Combination object with lowest totalPrice available in the Combination Arraylist
 	 */
 	@Test
@@ -404,7 +404,7 @@ public class CombinationsTest{
 	}
 
 	/**
-	 * Testing uniqueCombinationDesk & bestCombination when empty ArrayList<Desk> is passed as an argument
+	 * Testing uniqueCombinationDesk and bestCombination when empty ArrayList of type Desk is passed as an argument
 	 * returning Combination object must be null.
 	 */
 	@Test
@@ -420,7 +420,7 @@ public class CombinationsTest{
 
 	
 	/**
-	 * Testing uniqueCombinationDesk & bestCombination when there is only one valid combination found 
+	 * Testing uniqueCombinationDesk and bestCombination when there is only one valid combination found 
 	 */
 	@Test
 	public void testOneCombinationDesk()
@@ -442,7 +442,7 @@ public class CombinationsTest{
 
 
 	/**
-	 * Tests uniqueCombinationFiling &bestCombination for 1 Filing. UniqueCombinationFiling stores all possible combinations 
+	 * Tests uniqueCombinationFiling and bestCombination for 1 Filing. UniqueCombinationFiling stores all possible combinations 
 	 * that may make 1 Filing. Then bestCombination 
 	 * compares the totalPrice variable in each then returns the Combination object with lowest totalPrice value. 
 	 */
@@ -475,7 +475,7 @@ public class CombinationsTest{
 		assertEquals("the total price of expectedResult doesn't match totalPrice of result",expectedResult.totalPrice,result.totalPrice);
 	}
 	/**
-	 * Tests uniqueCombinationFiling &bestCombination for more than 1 Filing. Here we use 2 as example
+	 * Tests uniqueCombinationFiling and bestCombination for more than 1 Filing. Here we use 2 as example
 	 * UniqueCombinationFiling stores all possible combinations 
 	 * that may make 2 Filing. Then bestCombination 
 	 * compares the totalPrice variable in each then returns the Combination object with lowest totalPrice value. 
@@ -530,7 +530,7 @@ public class CombinationsTest{
 	}
 
 	/**
-	 * Testing uniqueCombinationFiling & bestCombination when empty ArrayList<Filing> is passed as an argument
+	 * Testing uniqueCombinationFiling and bestCombination when empty ArrayList of type Filing is passed as an argument
 	 * returning Combination object must be null.
 	 */
 	@Test
@@ -545,7 +545,7 @@ public class CombinationsTest{
 	}
 
 	/**
-	 * Testing uniqueCombinationFiling & bestCombination when there is only one valid combination found 
+	 * Testing uniqueCombinationFiling and bestCombination when there is only one valid combination found 
 	 */
 	@Test
 	public void testOneCombinationFiling()
