@@ -5,6 +5,7 @@ package edu.ucalgary.ensf409;
  * sina.tavakolmoghadda@ucalgary.ca</a>
  * @version 1.3
  * @since 1.0
+ * Group 49: Sina Tavakol Moghaddam, Jack li, Viet An Truong, Minseung Kwon
  */
 
 public class Furniture {

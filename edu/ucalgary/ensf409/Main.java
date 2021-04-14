@@ -3,6 +3,9 @@ package edu.ucalgary.ensf409;
 import java.sql.*;
 import java.util.Scanner;
 import java.util.*;
+/**
+ * Group 49: Sina Tavakol Moghaddam, Jack li, Viet An Truong, Minseung Kwon
+ */
 public class Main{
 
     public static void main(String[] args) {

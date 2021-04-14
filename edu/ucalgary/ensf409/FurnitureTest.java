@@ -7,6 +7,7 @@ import static org.junit.Assert.*;
  * sina.tavakolmoghadda@ucalgary.ca</a>
  * @version 1.1
  * @since 1.0
+ * Group 49: Sina Tavakol Moghaddam, Jack li, Viet An Truong, Minseung Kwon
  */
 
 public class FurnitureTest{
