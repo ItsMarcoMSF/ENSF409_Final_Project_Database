@@ -7,6 +7,7 @@ import java.util.*;
  * @author Kwon, Minseung
  * @version 1.9
  * @since 1.0
+ * Group 49: Sina Tavakol Moghaddam, Jack li, Viet An Truong, Minseung Kwon
  */
 public class Combinations {
     public ArrayList<Combination> result;   // ArrayList for all possible Combiantion found

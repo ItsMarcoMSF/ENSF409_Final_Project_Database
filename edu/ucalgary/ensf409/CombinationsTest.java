@@ -13,6 +13,7 @@ import org.junit.Test;
  * @author Truong,Viet An
  * @version 1.4
  * @since 1.0
+ * Group 49: Sina Tavakol Moghaddam, Jack li, Viet An Truong, Minseung Kwon
  */
 
 public class CombinationsTest{

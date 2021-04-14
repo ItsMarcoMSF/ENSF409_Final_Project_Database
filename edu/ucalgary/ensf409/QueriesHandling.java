@@ -9,6 +9,7 @@ import java.io.*;
  * @author 
  * @version 1.8
  * @since 1.0
+ * Group 49: Sina Tavakol Moghaddam, Jack li, Viet An Truong, Minseung Kwon
  */
 
 
