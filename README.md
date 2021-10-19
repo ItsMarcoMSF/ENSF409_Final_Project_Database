@@ -1,4 +1,4 @@
-# ensf409group49
+# ENSF 409 Final Project
 
 Authors: Viet An Truong, Jack, Minseung, Sina
 
